@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aim_Trainer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h2>AIM TRAINER GAME</h2>
+        <p>Hit the Target!!</p>
+        <div class="stats">
+            <p class="score">
+                Score: <span id="score">0</span>
+            </p>
+            <p class="time">
+                Time Left: <span id="time">30</span>s
+            </p>
+        </div>
+    </div>
+    <div>
+        <label for="targetType">Target Type: 
+            <select id="targetType">
+                <option value="ball">🔴 Red Ball</option>
+                <option value="target">🎯 Target</option>
+                <option value="ghost">👻 Ghost</option>
+                <option value="cat">🐱 Cat</option>
+                <option value="pizza">🍕 Pizza</option>
+                <option value="star">⭐ Star</option>
+                <option value="football">⚽ Football</option>
+            </select>
+        </label>
+    </div>
+    <div class="gameArea" id="gameArea">
+        <div id="instructions" class="instructions">
+            <h2>⚡ REFLEX TRAINING SIMULATOR</h2>
+            <p>Develop precision🔥</p>
+            <p>Improve reaction time⚡</p>
+            <p> Master your focus🧠</p>
+            <p>🎯 Hit moving targets</p>
+            <p>⏱️ 30-second challenge</p>
+            <p>🏆 Set new records</p>
+
+            <p class="startMsg">Press START to enter training mode</p>
+        </div>
+        <div id="gameOver">
+            <h2>🎮 GAME OVER!!</h2>
+            <p>🏆 Score: <span id="finalScore"></span></p>
+            <p>🥇 High Score: <span id="highScore"></span></p>
+            <button id="resetBtn">Restart</button>
+        </div>
+        <div class="target" id="target"></div>
+    </div>
+    <div class="result"></div>
+    <button class="start" id="startBtn">Start</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
