@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     margin: 0;
     text-align: center;
@@ -108,4 +109,63 @@ body{
 }
 .start:hover{
     background-color: darkgreen;
+=======
+body{
+    margin: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #121212;
+    min-height: 100vh;
+    color: #f4f4f4;
+}
+.header{
+    text-align: center;
+    padding: 20px;;
+}
+.header h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.header p{
+    color: lightgray;
+    font-size: 20px;
+}
+.stats{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-weight: bold;
+}
+.gameArea{
+    width: 700px;
+    height: 450px;
+    background-color: #1e1e1e;
+    border: 3px solid white;
+    border-radius: 15px;
+    margin: 30px auto;
+    position: relative;
+    cursor: pointer;
+}
+.target{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    border: 2px solid white;
+    box-shadow: inset;
+    display: none;
+}
+.start{
+    padding: 12px 25px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.start:hover{
+    background-color: darkgreen;
+>>>>>>> 5b3209f7b47fe86758318220bbfda91bb4c76730
 }
